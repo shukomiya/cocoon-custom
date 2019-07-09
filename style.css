@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+/*!
+Theme Name: Cocoon Child
+Template:   cocoon-master
+Version:    1.0.8
+*/
+
+/************************************
+** 子テーマ用のスタイルを書く
+************************************/
+/*必要ならばここにコードを書く*/
+.content {
+	margin-top: 0px;
+}
+.column-narrow .content-in{
+	width:882px
+}
+
+.content-only .header-container,
+.content-only .appeal,
+.content-only .carousel,
+.content-only .ad-area,
+.content-only .sns-share,
+.content-only .date-tags,
+.content-only .sns-follow,
+.content-only .article-footer,
+.content-only .under-entry-content,
+.content-only .breadcrumb,
+.content-only .main-scroll,
+.content-only .go-to-top-button,
+.content-only .notice-area,
+.content-only .content-top,
+.content-only .toc,
+.content-only .content-bottom {
+	display: none;
+}
+.content-only .footer {
+	display: block;
+}
+
+.front-top-page .entry-title,
+.front-top-page .post-update,
+.front-top-page .post-date,
+.sales-letter-full .entry-title {
+	display: none;
+}
+
+.sales-letter-full .article h1 {
+	text-align: center;
+	font-size: 240%;
+	font-weight: 900;
+	padding: 0;
+	margin: 1em 0 0.5em 0;
+}
+.sales-letter-full .article h2 {
+	text-align: center;
+	font-size: 200%;
+	font-weight: 900;
+	color: navy;
+	background-color:#fff;
+	padding: 0;
+	margin: 2em 0 1em 0;
+}
+.sales-letter-full .article h3 {
+	text-align: left;
+	font-size: 120%;
+	color: navy;
+	font-weight: 900;
+	margin: 1em 0;
+	padding-left: 0em 0 0em 0.5em;
+	border:none;
+	border-left-color: navy;
+	border-left-style: solid;
+	border-left-width: 1em;
+}
+.sales-letter .sales-letter-content dl {
+}
+
+.sales-letter .sales-letter-content dt {
+	font-weight: 900;
+	line-height: 1.9;
+}
+
+.sales-letter .sales-letter-content dd {
+	margin-left: 18px;
+	line-height: 1.9;
+}
+.checklist_red ul, .checklist_blue ul{
+	list-style-type:none;
+}
+
+.checklist_red li, .checklist_blue li{
+	padding-bottom: 20px;
+	padding-left: 32px;
+	margin-left: 16px;
+	line-height: 1.9;
+}
+.checklist_red li{
+	background-image:url("https://komish.com/wp-content/uploads//2017/09/checkred.gif");
+	background-repeat:no-repeat;
+	background-position: 0 4px;
+}
+.checklist_blue li{
+	background-image:url("https://komish.com/wp-content/uploads//2017/09/checkblue.gif");
+	background-repeat:no-repeat;
+	background-position: 0 4px;
+}
+
+.widelist li {
+	padding-bottom: 20px;
+	line-height: 1.9;
+}
+.johnson-box {
+	border: 2px dotted gray;
+	padding: 1em;
+	margin-bottom: 24px;
+	background-color: rgba(128,64,64,.05);
+}
+.term {
+	font-size: 70%; 
+	width: 90%; 
+	height: 20px;
+}
+
+input#a-button {
+    position: relative;
+    display: inline-block;
+    padding: 18px 18px;
+    text-decoration: none;
+    font-size: 100%;
+	font-weight: bold;
+    color: #fff;
+    background: #fd9535;/*色*/
+}
+
+input#a-button:hover {
+    text-decoration: underline;
+	border: solid 1px gray;
+}
+
+input#a-button:active {
+    border: solid 2px #d27d00;/*線色*/
+}
+
+a.a-button {
+    position: relative;
+    display: inline-block;
+    padding: 18px 18px;
+    text-decoration: none;
+    font-size: 120%;
+	font-weight: bold;
+    color: #fff;
+    background: #fd9535;/*色*/
+    border-top: solid 1px gray;/*線色*/
+    border-left: solid 1px gray;/*線色*/
+    border-right: solid 3px gray;/*線色*/
+    border-bottom: solid 3px gray;/*線色*/
+}
+
+a.a-button:hover {
+    text-decoration: underline;
+    border-top: solid 2px gray;/*線色*/
+    border-left: solid 2px gray;/*線色*/
+    border-right: solid 3px gray;/*線色*/
+    border-bottom: solid 3px gray;/*線色*/
+    color: #fff;
+    background: #fd9535;/*色*/
+}
+
+a.a-button:active {
+    color: #fff;
+    border-top: solid 4px gray;/*線色*/
+    border-left: solid 4px gray;/*線色*/
+    border-right: solid 2px gray;/*線色*/
+    border-bottom: solid 2px gray;/*線色*/
+}
+
+a.a-button:visited {
+    color: #fff;
+}
+.education nav {
+	margin: 48px 0;
+}
+
+.education .alignleft{
+	float: left;
+	width: 33%;
+}
+.education .aligncenter{
+	text-align: center;
+float: left;
+width: 33%;
+}
+.education .alignright{
+width: 33%;
+text-align: right;
+float: left;
+}
+
+
+
+
+/************************************
+** レスポンシブデザイン用のメディアクエリ
+************************************/
+/*1240px以下*/
+@media screen and (max-width: 1240px){
+  /*必要ならばここにコードを書く*/
+}
+
+/*1030px以下*/
+@media screen and (max-width: 1030px){
+  /*必要ならばここにコードを書く*/
+}
+
+@media screen and (max-width: 882px){
+	.column-narrow .content-in{
+		width:auto
+	}
+}
+/*768px以下*/
+@media screen and (max-width: 768px){
+  /*必要ならばここにコードを書く*/
+
+}
+
+/*480px以下*/
+@media screen and (max-width: 480px){
+  /*必要ならばここにコードを書く*/
+	.sales-letter-full .article h1 {
+		text-align: left;
+		font-size: 160%;
+		font-weight: 900;
+	/*border-bottom: 1px gray solid;*/
+	}
+	.sales-letter-full .article h2 {
+		text-align: left;
+		font-size: 140%;
+	}
+	.sales-letter-full .article h3 {
+		text-align: left;
+		font-size: 110%;
+		border-left-width: 0.5em;
+	}
+}
