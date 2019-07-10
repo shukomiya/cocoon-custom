@@ -198,8 +198,17 @@ text-align: right;
 float: left;
 }
 
-
-
+.widget-page-content-top-title,
+.widget-404-page-title{
+	font-size:24px;
+	font-weight:900;
+	background-color:#73384b;
+	color: #ffff;
+	padding:25px;
+	border-radius:2px;
+	margin:2.4em 0 1em;
+	line-height:1.25;
+}
 
 /************************************
 ** レスポンシブデザイン用のメディアクエリ
