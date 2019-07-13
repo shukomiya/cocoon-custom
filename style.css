@@ -209,6 +209,15 @@ float: left;
 	margin:2.4em 0 1em;
 	line-height:1.25;
 }
+.widget-entry-cards .widget-entry-card {
+	font-size: 1em;
+	font-weight: 900;
+}
+.main-widget-label{
+	margin: 22px 0;
+	font-size: 24px;
+	font-weight: 900;
+}
 
 /************************************
 ** レスポンシブデザイン用のメディアクエリ
@@ -251,5 +260,8 @@ float: left;
 		text-align: left;
 		font-size: 110%;
 		border-left-width: 0.5em;
+	}
+	#sidebar {
+		display: none;
 	}
 }
