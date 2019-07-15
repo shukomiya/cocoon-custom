@@ -58,21 +58,27 @@ Version:    1.0.8
 	font-size: 200%;
 	font-weight: 900;
 	color: navy;
-	background-color:#fff;
+	background-color:rgb(255, 255, 255, 0);
 	padding: 0;
 	margin: 2em 0 1em 0;
 }
 .sales-letter-full .article h3 {
 	text-align: left;
-	font-size: 120%;
+	font-size: 160%;
 	color: navy;
 	font-weight: 900;
 	margin: 1em 0;
-	padding-left: 0em 0 0em 0.5em;
+	padding: 0em 0 0em 0.5em;
 	border:none;
 	border-left-color: navy;
 	border-left-style: solid;
 	border-left-width: 1em;
+}
+.sales-letter-full .article h4 {
+	text-align: left;
+	font-size: 140%;
+	font-weight: 900;
+	border:none;
 }
 .sales-letter .sales-letter-content dl {
 }
