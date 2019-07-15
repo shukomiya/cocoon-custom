@@ -60,26 +60,55 @@ Version:    1.0.8
 	color: navy;
 	background-color:rgb(255, 255, 255, 0);
 	padding: 0;
-	margin: 2em 0 1em 0;
+	margin: 2em 0 2em 0;
 }
 .sales-letter-full .article h3 {
 	text-align: left;
 	font-size: 160%;
 	color: navy;
 	font-weight: 900;
-	margin: 1em 0;
-	padding: 0em 0 0em 0.5em;
+	margin: 2em 0;
+	padding: 0.2em 0 0em 0.4em;
 	border:none;
 	border-left-color: navy;
 	border-left-style: solid;
-	border-left-width: 1em;
+	border-left-width: 0.8em;
 }
 .sales-letter-full .article h4 {
 	text-align: left;
 	font-size: 140%;
 	font-weight: 900;
 	border:none;
+	margin: 2em 0;
+	padding: 0;
 }
+.sales-letter-full blockquote {
+  background-color: #fafbfc;
+  border: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 10px 1.2em;
+  position: relative;
+}
+.sales-letter-full blockquote::before,
+.sales-letter-full  blockquote::after {
+  color: #C8C8C8;
+  font-family: serif;
+  position: absolute;
+  font-size: 300%;
+}
+.sales-letter-full blockquote::before {
+  content: "“";
+  line-height: 1.1;
+  left: 10px;
+  top: 0;
+}
+.sales-letter-full blockquote::after {
+  content: "”";
+  line-height: 0;
+  right: 10px;
+  bottom: 0px;
+}
+
 .sales-letter .sales-letter-content dl {
 }
 
@@ -254,18 +283,23 @@ float: left;
   /*必要ならばここにコードを書く*/
 	.sales-letter-full .article h1 {
 		text-align: left;
-		font-size: 160%;
+		font-size: 180%;
 		font-weight: 900;
 	/*border-bottom: 1px gray solid;*/
 	}
 	.sales-letter-full .article h2 {
 		text-align: left;
-		font-size: 140%;
+		font-size: 160%;
 	}
 	.sales-letter-full .article h3 {
 		text-align: left;
-		font-size: 110%;
-		border-left-width: 0.5em;
+		font-size: 140%;
+		border-left-width: 0.4em;
+	}
+	.sales-letter-full .article h4 {
+		text-align: left;
+		font-size: 120%;
+		font-weight: 900;
 	}
 	#sidebar {
 		display: none;
