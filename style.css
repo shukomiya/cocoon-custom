@@ -39,6 +39,10 @@ Version:    1.0.8
 	display: block;
 }
 
+.entry-title, .archive-title {
+	font-size: 32px;
+	font-weight: 900;
+}
 .front-top-page .entry-title,
 .front-top-page .post-update,
 .front-top-page .post-date,
@@ -46,10 +50,6 @@ Version:    1.0.8
 	display: none;
 }
 
-.entry-title, .archive-title {
-	font-size: 36px;
-	font-weight: 900;
-}
 .sales-letter-full .article h1 {
 	text-align: center;
 	font-size: 240%;
@@ -290,6 +290,12 @@ float: left;
 		font-size: 180%;
 		font-weight: 900;
 	/*border-bottom: 1px gray solid;*/
+	}
+	.entry-title, .archive-title {
+		text-align: left;
+		padding:0;
+		font-size: 180%;
+		font-weight: 900;
 	}
 	.sales-letter-full .article h2 {
 		text-align: left;
