@@ -156,6 +156,13 @@ Version:    1.0.8
 	margin-bottom: 24px;
 	background-color: rgba(128,64,64,.05);
 }
+.sales-letter-full .johnson-box {
+	background-color: #fafbfc;
+	border: 1px solid #ccc;
+	padding: 1em;
+	margin-bottom: 24px;
+	background-color: rgba(128,64,64,.05);
+}
 .term {
 	font-size: 70%; 
 	width: 90%; 
