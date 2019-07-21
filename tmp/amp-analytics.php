@@ -5,6 +5,9 @@
  * @link: https://wp-cocoon.com/
  * @license: http://www.gnu.org/licenses/gpl-2.0.html GPL v2 or later
  */
+ 
+global $g_analy_g_acount;
+
 if ( !defined( 'ABSPATH' ) ) exit;
 
 //タグマネージャIDが設定されているときは計測しない
@@ -17,7 +20,6 @@ if ( is_analytics() && !get_google_tag_manager_tracking_id() ) {
 ?>
 
 <!-- AMP Google Analytics -->
-<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 <amp-analytics type="gtag" data-credentials="include">
 <script type="application/json">
 {

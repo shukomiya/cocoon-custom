@@ -8,3 +8,4 @@
 
 <?php endif; ?>
 <?php //全ての訪問者をカウントする場合は以下に挿入 ?>
+echo '<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>'.PHP_EOL;
