@@ -32,7 +32,8 @@ if ( $g_is_localhost ) {
 
 //noindex条件を追加する
 add_filter('is_noindex_page', function ($is_noindex){
-  return $is_noindex || is_category(193) || is_category(315) || is_category(216);
+  return $is_noindex || is_category(193) || is_category(315) || is_category(216) ||
+  	is_tag(288) || is_tag(298) || is_tag(307) || is_tag(385);
 });
 
 
