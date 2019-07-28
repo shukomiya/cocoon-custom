@@ -30,3 +30,9 @@ if ( $g_is_localhost ) {
 //$g_ad_enabled = true;
 //$g_category_nav = true;
 
+//noindex条件を追加する
+add_filter('is_noindex_page', function ($is_noindex){
+  return $is_noindex || is_category(193) || is_category(315) || is_category(216);
+});
+
+
