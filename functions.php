@@ -30,10 +30,16 @@ if ( $g_is_localhost ) {
 //$g_ad_enabled = true;
 //$g_category_nav = true;
 
+$g_noindex_terms = [193, 315, 216, 288, 298, 307, 385];
+
 //noindex条件を追加する
 add_filter('is_noindex_page', function ($is_noindex){
-  return $is_noindex || is_category(193) || is_category(315) || is_category(216) ||
-  	is_tag(288) || is_tag(298) || is_tag(307) || is_tag(385);
+	global $post, $g_noindex_terms;
+
+	
+	return $is_noindex || (is_single() && in_category($g_noindex_terms));
+//  return $is_noindex || is_category(193) || is_category(315) || is_category(216) ||
+//  	is_tag(288) || is_tag(298) || is_tag(307) || is_tag(385);
 });
 
 
