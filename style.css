@@ -165,7 +165,7 @@ Version:    1.0.8
 	border: 1px solid #ccc;
 	padding: 1em;
 	margin-bottom: 24px;
-	background-color: rgba(128,64,64,.05);
+	background-color: #fafbfc;
 }
 .term {
 	font-size: 70%; 
