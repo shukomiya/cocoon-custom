@@ -44,9 +44,43 @@ Version:    1.0.8
 }
 
 .entry-title, .archive-title {
-	font-size: 32px;
-	font-weight: 900;
+	font-size: 180%;
 }
+
+.article h2 {
+	font-size: 170%;
+	padding: 16px;
+	border-left: 20px #804040 solid;
+	border-bottom: 1px #804040 dotted;
+  color: initial;
+  background-color: initial;
+  border-radius:  initial;
+}
+.article h3 {
+	 font-size: 150%;
+	padding: 12px;
+	border-left: 16px #804040 solid;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+}
+.article h4 {
+	font-size: 140%;
+	padding-left:0;
+  border-top: none;
+  border-bottom: none;
+}
+.article h5 {
+	font-size: 130%;
+	padding-left:1em;
+	border-bottom: none;
+}
+.article h6 {
+	font-size: 120%;
+	padding-left:2em;
+  border-bottom: none;
+}
+
 .front-top-page .entry-title,
 .front-top-page .post-update,
 .front-top-page .post-date,
