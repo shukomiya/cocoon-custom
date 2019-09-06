@@ -103,6 +103,7 @@ Version:    1.0.8
 	background-color:rgb(255, 255, 255, 0);
 	padding: 0;
 	margin: 2em 0 2em 0;
+	border:none;
 }
 .sales-letter-full .article h3 {
 	text-align: left;

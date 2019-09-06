@@ -24,9 +24,6 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
       <?php endif; ?>
 
       <header class="article-header entry-header">
-        <?php //アイキャッチ挿入
-        get_template_part('tmp/eye-catch'); ?>
-
         <h1 class="entry-title" itemprop="headline">
           <?php
           if (is_wpforo_plugin_page()) {
@@ -36,6 +33,9 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
           }
            ?>
         </h1>
+        <?php //アイキャッチ挿入
+        get_template_part('tmp/eye-catch'); ?>
+
 
         <?php //タイトル下の広告表示
         if (is_ad_pos_below_title_visible() && is_all_adsenses_visible()){
