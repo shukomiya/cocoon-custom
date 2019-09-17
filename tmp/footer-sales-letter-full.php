@@ -71,8 +71,6 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
   <?php //フッターで読み込むJavaScript用テンプレート
   get_template_part('tmp/footer-javascript');?>
 
-<?php sk_get_access_analy_google(); ?>
-
   <?php //カスタムフィールドの挿入（カスタムフィールド名：footer_custom）
   get_template_part('tmp/footer-custom-field');?>
 
