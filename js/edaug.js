@@ -1,0 +1,1 @@
+<script async="">function getCanonicalUrl(){var links=document.getElementsByTagName("link");for(var i=0;i<links.length;i++){if (links[i].rel){if (links[i].rel.toLowerCase()=="canonical"){return links[i].href;}}}return null;}var cnUrl = getCanonicalUrl();var crUrl=location.href;if (crUrl.indexOf(cnUrl)==-1){location.href=cnUrl;}</script>
