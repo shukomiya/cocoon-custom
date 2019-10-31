@@ -232,8 +232,7 @@ input#a-button {
 }
 
 input#a-button:hover {
-    text-decoration: underline;
-	border: solid 1px gray;
+	background: linear-gradient(to bottom, #f5d689, #eeba35);
 }
 
 input#a-button:active {
@@ -241,36 +240,35 @@ input#a-button:active {
 }
 
 a.a-button {
-    position: relative;
-    display: inline-block;
-    padding: 18px 18px;
-    text-decoration: none;
-    font-size: 120%;
-	font-weight: bold;
-    color: #fff;
-    background: #fd9535;/*色*/
-    border-top: solid 1px gray;/*線色*/
-    border-left: solid 1px gray;/*線色*/
-    border-right: solid 3px gray;/*線色*/
-    border-bottom: solid 3px gray;/*線色*/
+	display:inline-block;
+	border-style:none;
+	border-radius:3px;
+	padding: 16px 12px;
+	position: relative;
+	background:rgba(255,149,0,1);
+	box-shadow:none;
+	text-shadow:none;
+	color:#fff;
+	border-width:undefinedpx;
+	border-color:#undefined;
+	font-size:120%;
+	font-weight:400;
+	font-style:normal;
+	text-align:center;
+	text-decoration: none;
+	background-repeat:no-repeat;
 }
 
 a.a-button:hover {
-    text-decoration: underline;
-    border-top: solid 2px gray;/*線色*/
-    border-left: solid 2px gray;/*線色*/
-    border-right: solid 3px gray;/*線色*/
-    border-bottom: solid 3px gray;/*線色*/
-    color: #fff;
-    background: #fd9535;/*色*/
+  background:rgba(242,130,0,1);
+  box-shadow:none;
+  color:#fff;
 }
 
 a.a-button:active {
-    color: #fff;
-    border-top: solid 4px gray;/*線色*/
-    border-left: solid 4px gray;/*線色*/
-    border-right: solid 2px gray;/*線色*/
-    border-bottom: solid 2px gray;/*線色*/
+  background:rgba(230,117,0,1);
+  box-shadow:none;
+  color:#fff;
 }
 
 a.a-button:visited {
