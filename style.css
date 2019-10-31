@@ -221,57 +221,72 @@ input[type='reset'] {
     cursor: pointer;
 }
 input#a-button {
-    position: relative;
-    display: inline-block;
-    padding: 18px 18px;
-    text-decoration: none;
-    font-size: 100%;
-	font-weight: bold;
-    color: #fff;
-    background: #fd9535;/*色*/
+	display:inline-block;
+border-radius:3px;
+padding:16px;
+position:relative;
+background:rgba(255,149,0,1);
+box-shadow:none;
+text-shadow:none;
+color:#fff;
+font-weight:600;
+text-decoration:none;
+font-size:100%;
+font-weight:600;
+color:#fff;
+border:1px #111 solid;
 }
 
 input#a-button:hover {
-	background: linear-gradient(to bottom, #f5d689, #eeba35);
+  background:rgba(242,130,0,1);
+text-shadow:none;
+  color:#fff;
 }
 
 input#a-button:active {
-    border: solid 2px #d27d00;/*線色*/
+  background:rgba(230,117,0,1);
+box-shadow:none;
+  color:#fff;
+}
+
+input#a-button:visited {
+background:rgba(255,149,0,1);
+box-shadow:none;
+    color: #fff;
 }
 
 a.a-button {
 	display:inline-block;
-	border-style:none;
-	border-radius:3px;
-	padding: 16px 12px;
-	position: relative;
-	background:rgba(255,149,0,1);
-	box-shadow:none;
-	text-shadow:none;
-	color:#fff;
-	border-width:undefinedpx;
-	border-color:#undefined;
-	font-size:120%;
-	font-weight:400;
-	font-style:normal;
-	text-align:center;
-	text-decoration: none;
-	background-repeat:no-repeat;
+border-radius:3px;
+padding:16px;
+position:relative;
+background:rgba(255,149,0,1);
+box-shadow:none;
+text-shadow:none;
+color:#fff;
+font-weight:600;
+text-decoration:none;
+font-size:100%;
+font-weight:600;
+color:#fff;
+border:1px #111 solid;
 }
 
 a.a-button:hover {
   background:rgba(242,130,0,1);
-  box-shadow:none;
+text-shadow:none;
   color:#fff;
 }
 
 a.a-button:active {
   background:rgba(230,117,0,1);
-  box-shadow:none;
+box-shadow:none;
   color:#fff;
 }
 
 a.a-button:visited {
+background:rgba(255,149,0,1);
+box-shadow:none;
     color: #fff;
 }
 .education nav {
