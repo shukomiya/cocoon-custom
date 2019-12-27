@@ -47,6 +47,9 @@ Version:    1.0.8
 	font-size: 200%;
 }
 
+.article h1 {
+	font-size: 200%;
+}
 .article h2 {
 	font-size: 170%;
 	padding: 16px;
@@ -81,7 +84,7 @@ Version:    1.0.8
   border-bottom: none;
 }
 
-.front-top-page .entry-title,
+/*.front-top-page .entry-title,*/
 .front-top-page .post-update,
 .front-top-page .post-date,
 .sales-letter-full .entry-title {
