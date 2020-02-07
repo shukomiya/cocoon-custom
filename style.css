@@ -361,7 +361,6 @@ float: left;
 
 .internal-blogcard::after {
 	content: 'content: '\f138\ 続きを読む';/*続きを読むを入れる枠を挿入*/
-	font-family: 'FontAwesome';/*続きを読むの右側にマークをつける*/
 	position: absolute;
 	color:#333;
 	margin-top:-1.3rem;/*関連記事の縦軸の調整*/
