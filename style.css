@@ -333,64 +333,53 @@ float: left;
 }
 
 /*ブログカードいろいろ変更*/
-#main .blogcard{
-border:none;/*ブログカードの枠線を消す*/
-color:#555;
-}
-
 #main .internal-blogcard-title:before {
-content: "関連記事";/*関連記事を入れる枠を挿入*/
-background: #FFC042;/*関連記事の背景色*/
-border:solid 1px #333;/*関連記事の枠線*/
-border-radius: 2px;/*関連記事の枠の角を取る*/
-color: #333;
-font-size: .8em;
-padding: .1em .35em;
-margin-right: .3em;
-}
-
-a.blogcard-wrap:hover img.blogcard-thumb-image{
-transform: scale(1.1);/*ブログカードのアイキャッチに動きをつける*/
-transition: .3s;/*動きのスピードの調整*/
+	content: "関連記事";/*関連記事を入れる枠を挿入*/
+	background: #FFC042;/*関連記事の背景色*/
+	border:solid 1px #333;/*関連記事の枠線*/
+	border-radius: 2px;/*関連記事の枠の角を取る*/
+	color: #333;
+	font-size: .8em;
+	padding: .1em .35em;
+	margin-right: .3em;
 }
 
 .blogcard-thumbnail {
-line-height: 0;
-margin-right: 1rem;
-overflow: hidden;/*アイキャッチのはみ出る具合を調整*/
+	line-height: 0;
+	margin-right: 1rem;
+	overflow: hidden;/*アイキャッチのはみ出る具合を調整*/
 }
 
 #main .internal-blogcard-title {
-line-height: １．８;
-font-size: .95em;
+	line-height:1.8;
+	font-size: .95em;
 }
 
 .blogcard-snipet {
-font-size: .65em;
+	font-size: .65em;
 }
 
 .internal-blogcard::after {
-content: 'content: '\f138\ 続きを読む';/*続きを読むを入れる枠を挿入*/
-font-family: 'FontAwesome';/*続きを読むの右側にマークをつける*/
-position: absolute;
-color:#333;
-margin-top:-1.3rem;/*関連記事の縦軸の調整*/
-padding: .2em .8em;/*関連記事の枠の大きさの調整*/
-right: 5rem;/*関連記事の横軸の調整*/
-font-size: .8em;/*関連記事の文字の大きさの調整*/
-font-weight: bolder;/*関連記事の文字の太さの調整*/
-background-color: #f8acac;/*関連記事の背景色*/
-border: solid 1px #333;/*関連記事の枠線*/
-border-radius: 2px;/*関連記事の枠の角を取る*/
+	content: 'content: '\f138\ 続きを読む';/*続きを読むを入れる枠を挿入*/
+	font-family: 'FontAwesome';/*続きを読むの右側にマークをつける*/
+	position: absolute;
+	color:#333;
+	margin-top:-1.3rem;/*関連記事の縦軸の調整*/
+	padding: .2em .8em;/*関連記事の枠の大きさの調整*/
+	right: 5rem;/*関連記事の横軸の調整*/
+	font-size: .8em;/*関連記事の文字の大きさの調整*/
+	font-weight: bolder;/*関連記事の文字の太さの調整*/
+	background-color: #f8acac;/*関連記事の背景色*/
+	border: solid 1px #333;/*関連記事の枠線*/
+	border-radius: 2px;/*関連記事の枠の角を取る*/
 }
 
 
 @media screen and (max-width: 1030px){
-	#main .blogcard-snipet {
-	display: none;/*タブレット以下で説明文を非表示*/
-	}
+#main .blogcard-snipet {
+display: none;/*タブレット以下で説明文を非表示*/
 }
-
+}
 /************************************
 ** レスポンシブデザイン用のメディアクエリ
 ************************************/
