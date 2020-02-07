@@ -1,5 +1,11 @@
 <?php
 
+// エラー出力する場合
+ini_set( 'display_errors', 1 );
+
+mb_language('ja');
+mb_internal_encoding("utf-8");
+
 require_once( dirname(__FILE__).'/lib/stripe-php-7.23.0/init.php');
 
 // Set your secret key: remember to change this to your live secret key in production
