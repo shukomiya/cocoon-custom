@@ -360,13 +360,13 @@ float: left;
 }
 
 .internal-blogcard::after {
-	content: 'content: '\f138\ 続きを読む';/*続きを読むを入れる枠を挿入*/
+	content: 'content: '続きを読む→';/*続きを読むを入れる枠を挿入*/
 	position: absolute;
 	color:#333;
 	margin-top:-1.3rem;/*関連記事の縦軸の調整*/
 	padding: .2em .8em;/*関連記事の枠の大きさの調整*/
 	right: 5rem;/*関連記事の横軸の調整*/
-	font-size: .65em;/*関連記事の文字の大きさの調整*/
+	font-size: .8em;/*関連記事の文字の大きさの調整*/
 	font-weight: bolder;/*関連記事の文字の太さの調整*/
 	background-color: #f8acac;/*関連記事の背景色*/
 	border: solid 1px #333;/*関連記事の枠線*/
