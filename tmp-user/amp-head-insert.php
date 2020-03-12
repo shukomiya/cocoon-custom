@@ -8,3 +8,6 @@
 
 <?php endif; ?>
 <?php //全ての訪問者をカウントする場合は以下に挿入 ?>
+<script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
