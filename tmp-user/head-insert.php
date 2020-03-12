@@ -8,3 +8,6 @@
 
 <?php endif; ?>
 <?php //全ての訪問者をカウントする場合は以下に挿入 ?>
+<?php if (is_the_page_ads_visible()) : ?>
+<script data-ad-client="ca-pub-7935009294964527" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<?php endif; ?>
