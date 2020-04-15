@@ -48,38 +48,40 @@ Version:    1.0.8
 }
 
 .article h1 {
-	font-size: 200%;
+	font-size: 220%;
+	font-weight: 600;
 }
 .article h2 {
-	font-size: 170%;
-	padding: 16px;
-	border-left: 20px #804040 solid;
-	border-bottom: 1px #804040 dotted;
+	font-size: 180%;
+	font-weight: 600;
+	padding: 12px 0;
+	border-bottom: 2px gray solid;
   color: initial;
   background-color: initial;
   border-radius:  initial;
 }
 .article h3 {
-	 font-size: 150%;
-	padding: 12px;
-	border-left: 16px #804040 solid;
+	 font-size: 170%;
+	padding: 12px 0;
+	border-bottom: 1px gray dotted;
   border-right: none;
   border-top: none;
-  border-bottom: none;
+  border-left: none;
 }
 .article h4 {
 	font-size: 140%;
-	padding-left:0;
+	padding: 8px;
   border-top: none;
+	border-left: 8px gray solid;
   border-bottom: none;
 }
 .article h5 {
-	font-size: 130%;
+	font-size: 120%;
 	padding-left:1em;
 	border-bottom: none;
 }
 .article h6 {
-	font-size: 120%;
+	font-size: 100%;
 	padding-left:2em;
   border-bottom: none;
 }
@@ -253,6 +255,77 @@ box-shadow:none;
 }
 
 input#a-button:visited {
+background:rgba(255,149,0,1);
+box-shadow:none;
+    color: #fff;
+}
+
+input.a-button {
+	display:inline-block;
+border-radius:3px;
+padding:16px;
+position:relative;
+background:rgba(255,149,0,1);
+box-shadow:none;
+text-shadow:none;
+color:#fff;
+font-weight:600;
+text-decoration:none;
+font-size:100%;
+font-weight:600;
+color:#fff;
+border:1px #111 solid;
+}
+
+input.a-button:hover {
+  background:rgba(242,130,0,1);
+text-shadow:none;
+  color:#fff;
+}
+
+input.a-button:active {
+  background:rgba(230,117,0,1);
+box-shadow:none;
+  color:#fff;
+}
+
+input.a-button:visited {
+background:rgba(255,149,0,1);
+box-shadow:none;
+    color: #fff;
+}
+
+button.a-like-button {
+	display:inline-block;
+border-radius:3px;
+padding:16px;
+position:relative;
+background:rgba(255,149,0,1);
+box-shadow:none;
+text-shadow:none;
+color:#fff;
+font-weight:600;
+text-decoration:none;
+font-size:100%;
+font-weight:600;
+color:#fff;
+border:1px #111 solid;
+cursor: pointer;
+}
+
+button.a-like-button:hover {
+  background:rgba(242,130,0,1);
+text-shadow:none;
+  color:#fff;
+}
+
+button.a-like-button:active {
+  background:rgba(230,117,0,1);
+box-shadow:none;
+  color:#fff;
+}
+
+button.a-like-button:visited {
 background:rgba(255,149,0,1);
 box-shadow:none;
     color: #fff;
