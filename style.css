@@ -61,7 +61,7 @@ Version:    1.0.8
   border-radius:  initial;
 }
 .article h3 {
-	 font-size: 170%;
+	 font-size: 150%;
 	padding: 12px 0;
 	border-bottom: 1px gray dotted;
   border-right: none;
@@ -69,7 +69,7 @@ Version:    1.0.8
   border-left: none;
 }
 .article h4 {
-	font-size: 140%;
+	font-size: 120%;
 	padding: 8px;
   border-top: none;
 	border-left: 8px gray solid;
