@@ -7,3 +7,4 @@
 
 <?php endif; ?>
 <?php //全ての訪問者をカウントする場合は以下に挿入 ?>
+<div id="afbkwjs" style="display:none;"><script type="text/javascript" src="https://track.affiliate-b.com/or/kw.js?ps=V88868v" async></script></div>
