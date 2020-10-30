@@ -15,7 +15,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
   <div class="footer-bottom-content">
      <?php get_template_part('tmp/navi-footer') ?>
 
-    <div class="source-org copyright"><?php echo  'Copyright &copy 2008-' .  date_i18n('Y')  . ' <a href="' .   esc_url(home_url('/'))  . '">' . get_bloginfo('name') . '</a>'  . ' All rights reserverd.'; ?></div>
+    <div class="source-org copyright"><?php echo  'Copyright &copy; 2008-' .  date_i18n('Y')  . ' <a href="' .   esc_url(home_url('/'))  . '">' . get_bloginfo('name') . '</a>'  . ' All rights reserverd.'; ?></div>
   </div>
 
 </div>

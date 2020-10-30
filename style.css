@@ -260,77 +260,6 @@ box-shadow:none;
     color: #fff;
 }
 
-input.a-button {
-	display:inline-block;
-border-radius:3px;
-padding:16px;
-position:relative;
-background:rgba(255,149,0,1);
-box-shadow:none;
-text-shadow:none;
-color:#fff;
-font-weight:600;
-text-decoration:none;
-font-size:100%;
-font-weight:600;
-color:#fff;
-border:1px #111 solid;
-}
-
-input.a-button:hover {
-  background:rgba(242,130,0,1);
-text-shadow:none;
-  color:#fff;
-}
-
-input.a-button:active {
-  background:rgba(230,117,0,1);
-box-shadow:none;
-  color:#fff;
-}
-
-input.a-button:visited {
-background:rgba(255,149,0,1);
-box-shadow:none;
-    color: #fff;
-}
-
-button.a-like-button {
-	display:inline-block;
-border-radius:3px;
-padding:16px;
-position:relative;
-background:rgba(255,149,0,1);
-box-shadow:none;
-text-shadow:none;
-color:#fff;
-font-weight:600;
-text-decoration:none;
-font-size:100%;
-font-weight:600;
-color:#fff;
-border:1px #111 solid;
-cursor: pointer;
-}
-
-button.a-like-button:hover {
-  background:rgba(242,130,0,1);
-text-shadow:none;
-  color:#fff;
-}
-
-button.a-like-button:active {
-  background:rgba(230,117,0,1);
-box-shadow:none;
-  color:#fff;
-}
-
-button.a-like-button:visited {
-background:rgba(255,149,0,1);
-box-shadow:none;
-    color: #fff;
-}
-
 a.a-button {
 	display:inline-block;
 border-radius:3px;
@@ -405,53 +334,10 @@ float: left;
 	font-weight: 900;
 }
 
-/*ブログカードいろいろ変更*/
-#main .internal-blogcard-title:before {
-	content: "関連記事";/*関連記事を入れる枠を挿入*/
-	background: #FFC042;/*関連記事の背景色*/
-	border:solid 1px #333;/*関連記事の枠線*/
-	border-radius: 2px;/*関連記事の枠の角を取る*/
-	color: #333;
-	font-size: .8em;
-	padding: .1em .35em;
-	margin-right: .3em;
+frame[src^="https://docs.google.com/forms/d/e"]{
+  width:100%;
 }
 
-.blogcard-thumbnail {
-	line-height: 0;
-	margin-right: 1rem;
-	overflow: hidden;/*アイキャッチのはみ出る具合を調整*/
-}
-
-#main .internal-blogcard-title {
-	line-height:1.8;
-	font-size: .95em;
-}
-
-.blogcard-snipet {
-	font-size: .65em;
-}
-
-.internal-blogcard::after {
-	content: 'content: '続きを読む→';/*続きを読むを入れる枠を挿入*/
-	position: absolute;
-	color:#333;
-	margin-top:-1.3rem;/*関連記事の縦軸の調整*/
-	padding: .2em .8em;/*関連記事の枠の大きさの調整*/
-	right: 5rem;/*関連記事の横軸の調整*/
-	font-size: .8em;/*関連記事の文字の大きさの調整*/
-	font-weight: bolder;/*関連記事の文字の太さの調整*/
-	background-color: #f8acac;/*関連記事の背景色*/
-	border: solid 1px #333;/*関連記事の枠線*/
-	border-radius: 2px;/*関連記事の枠の角を取る*/
-}
-
-
-@media screen and (max-width: 1030px){
-#main .blogcard-snipet {
-display: none;/*タブレット以下で説明文を非表示*/
-}
-}
 /************************************
 ** レスポンシブデザイン用のメディアクエリ
 ************************************/
